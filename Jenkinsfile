@@ -1,10 +1,8 @@
 pipeline {
-    agent any
-    
+    agent any    
     environment {
         APP_PORT = '9090'        
-    }
-  
+    }  
     stages {
         stage('Build') {
             steps {
